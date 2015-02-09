@@ -31,7 +31,7 @@ app.get('/', function (req, res) {
   var c = req.query.c;
   var m = req.query.m;
 
-  var key = 'a magic secret' // Change this before deploying
+  var key = '95HOaM98zbvFa7S9wr8vU5Eoth1HlEUk' // Change this before deploying
   var hmac;
 
   var seed, card, mac, newmac;
